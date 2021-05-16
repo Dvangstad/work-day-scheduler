@@ -18,6 +18,12 @@ function saveToLocal(){
     var valueToSave = $(this).prev().val();
     var keyToSave = $(this).prev().attr("id")
     localStorage.setItem(keyToSave, valueToSave)
+    
 }
+
+
+
+
+
 
 $("button").on("click", saveToLocal)
